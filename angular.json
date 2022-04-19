@@ -68,10 +68,12 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "buy-and-sell:build:production"
+              "browserTarget": "buy-and-sell:build:production",
+              "port": 5200
             },
             "development": {
-              "browserTarget": "buy-and-sell:build:development"
+              "browserTarget": "buy-and-sell:build:development",
+              "port": 5200
             }
           },
           "defaultConfiguration": "development"
