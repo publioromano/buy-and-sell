@@ -10,7 +10,7 @@ import { ListingsService } from '../listings.service';
 export class ListingsPageComponent implements OnInit {
 
   listings: Listing[] = [];
-
+  
   constructor(private listingsService : ListingsService) { }
 
   ngOnInit(): void {
